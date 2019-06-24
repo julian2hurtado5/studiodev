@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.home-wrapper {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/background3.jpg') no-repeat center top;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+header {
+  padding: 3px 0;
+  width: 100%;
+  background-color: rgba(48, 48, 48, 0.8)
+}
+
+header img {
+  width: 300px;
+  margin-top: 40px;
+}
+
+header nav {
+  float: right;
+  margin-top: 60px;
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+
+header nav a.active{
+  background: #2E64FE;
+  border-radius: 10px;
+}
+
+#home {
+  text-align: center;
+  padding:  0 0 400px;
+  margin-top: 120px;
+}
+
+#home .divider {
+  width: 100px;
+  border-top: 5px solid #2E64FE;
+  margin: 0 auto;
+}
+#home h1{
+  font-size: 58px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+#home p{
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+#home .social{
+  margin-top: 80px;
+}
+
+#home .social a {
+  color: #FFFFFF;
+  display: inline-block;
+  border-radius: 50%;
+  background-color:rgb(0,0,0);
+  opacity:0.8;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+  -webkit-transition: all .6s;
+  -mpz-transition: all 6s;
+  transition: : all .6s;
+}
+
+#home .social a:hover {
+  background-color: #2E64FE;
+}
+
+#servicios .box{
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+}
+
+#video {
+  background-color: black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#portafolio {
+  background-color: whitesmoke;
+}
+
+#portafolio .box{
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  margin: 1%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#portafolio .box img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+#portafolio .box p {
+  color: #666;
+  padding: 12px;
+}
+
+#contacto {
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: white;
+}
+
+#contacto input{
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+
+}
+
+#contacto button {
+  background-color: #fed136;
+  padding: 20px 0;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ccc
+}
+section {
+  padding: 80px 0;
+}
+
+section h2{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
